@@ -1,0 +1,9 @@
+{
+  "width": 32,
+  "height": 32,
+  "background": "#00000000",
+  "frames": [0, 1, 2, 3],
+  "actions": "assets/snake/head/{frame}.ops.json",
+  "preview": "assets/snake/head/{frame}.png",
+  "layers": "assets/snake/head/layers.json"
+}

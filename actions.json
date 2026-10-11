@@ -1,0 +1,71 @@
+[
+  {
+    "op": "add_voice",
+    "name": "v",
+    "wave": "square",
+    "freq": 620.0,
+    "gain": -8.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 90.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "v",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "add_voice",
+    "name": "v",
+    "wave": "triangle",
+    "freq": 900.0,
+    "gain": -7.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 220.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "v",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "v",
+    "slide_to_hz": 1500.0,
+    "over_ms": 200.0
+  },
+  {
+    "op": "add_voice",
+    "name": "v",
+    "wave": "saw",
+    "freq": 150.0,
+    "gain": -10.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 900.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "v",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "punch"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "v",
+    "slide_to_hz": 40.0,
+    "over_ms": 850.0
+  }
+]

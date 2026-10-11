@@ -1,0 +1,68 @@
+[
+  {
+    "op": "define_track",
+    "name": "bass",
+    "instrument": "triangle"
+  },
+  {
+    "op": "add_note",
+    "track": "bass",
+    "pitch": 36,
+    "t_beats": 0.0,
+    "dur_beats": 8.0,
+    "velocity": 55
+  },
+  {
+    "op": "define_track",
+    "name": "lead",
+    "instrument": "square"
+  },
+  {
+    "op": "add_note",
+    "track": "lead",
+    "pitch": 60,
+    "t_beats": 0.0,
+    "dur_beats": 2.0,
+    "velocity": 100
+  },
+  {
+    "op": "add_note",
+    "track": "lead",
+    "pitch": 67,
+    "t_beats": 2.0,
+    "dur_beats": 2.0,
+    "velocity": 100
+  },
+  {
+    "op": "add_note",
+    "track": "lead",
+    "pitch": 63,
+    "t_beats": 4.0,
+    "dur_beats": 2.0,
+    "velocity": 100
+  },
+  {
+    "op": "add_note",
+    "track": "lead",
+    "pitch": 70,
+    "t_beats": 6.0,
+    "dur_beats": 2.0,
+    "velocity": 100
+  },
+  {
+    "op": "set_track_fx",
+    "track": "bass",
+    "gain": -12.0,
+    "pan": null,
+    "reverb": null,
+    "env": "gate"
+  },
+  {
+    "op": "set_track_fx",
+    "track": "lead",
+    "gain": -18.0,
+    "pan": null,
+    "reverb": null,
+    "env": "pluck"
+  }
+]
